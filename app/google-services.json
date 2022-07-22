@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "904879984228",
+    "project_id": "quotes-app-17b14",
+    "storage_bucket": "quotes-app-17b14.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:904879984228:android:d0947d143e682b82905971",
+        "android_client_info": {
+          "package_name": "com.newnepquotes.shyarihin2022"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "904879984228-ketav9g7l3o0rnlbfvecjb5kmjs20mgs.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBNfiyxqcgStxjt4vasxtEKaououwqgWRk"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "904879984228-ketav9g7l3o0rnlbfvecjb5kmjs20mgs.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.newnepquotes.shyarihin2022">
+    <uses-permission android:name="android.permission.INTERNET"/>
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/lunchlog"
+        android:label="@string/app_name"
+        android:roundIcon="@drawable/lunchlog"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.QuotesApp">
+        <activity android:name="com.newnepquotes.shyarihin2022.NavigationDrawer.TermsConditions"></activity>
+        <activity android:name="com.newnepquotes.shyarihin2022.NavigationDrawer.PrivacyPolicy" />
+        <activity android:name="com.newnepquotes.shyarihin2022.NavigationDrawer.Instagram_Page" />
+        <activity android:name="com.newnepquotes.shyarihin2022.NavigationDrawer.Facebook_Page" />
+        <activity android:name="com.newnepquotes.shyarihin2022.NavigationDrawer.Website_Page" />
+        <activity android:name="com.newnepquotes.shyarihin2022.Home_Activity" />
+        <activity android:name="com.newnepquotes.shyarihin2022.SplashScreen"  android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name="com.newnepquotes.shyarihin2022.ctegories.one"/>
+        <activity android:name="com.newnepquotes.shyarihin2022.ctegories.two"/>
+        <activity android:name="com.newnepquotes.shyarihin2022.ctegories.Three"/>
+        <activity android:name="com.newnepquotes.shyarihin2022.ctegories.four"/>
+        <activity android:name="com.newnepquotes.shyarihin2022.ctegories.five"/>
+        <activity android:name="com.newnepquotes.shyarihin2022.ctegories.six"/>
+        <activity android:name="com.newnepquotes.shyarihin2022.ctegories.Seven"/>
+        <activity android:name="com.newnepquotes.shyarihin2022.ctegories.Eight"/>
+        <activity android:name="com.newnepquotes.shyarihin2022.ctegories.nine"/>
+        <activity android:name="com.newnepquotes.shyarihin2022.ctegories.ten"/>
+        <activity android:name="com.newnepquotes.shyarihin2022.ctegories.elevan"/>
+        <activity android:name="com.newnepquotes.shyarihin2022.ctegories.twelve"/>
+
+        <!-- Sample AdMob app ID: ca-app-pub-3940256099942544~3347511713 -->
+        <meta-data
+            android:name="com.google.android.gms.ads.APPLICATION_ID"
+            android:value="ca-app-pub-2349339302400353~3905206986"/>
+
+        <meta-data
+            android:name="preloaded_fonts"
+            android:resource="@array/preloaded_fonts" />
+    </application>
+
+</manifest>

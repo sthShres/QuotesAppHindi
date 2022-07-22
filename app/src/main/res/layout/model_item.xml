@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="#0000ffff"
+    android:clickable="true"
+    android:fitsSystemWindows="true"
+    android:focusable="true"
+    android:foreground="?attr/selectableItemBackground"
+    app:cardCornerRadius="12dp"
+    app:cardElevation="3dp"
+    android:elevation="3dp"
+    app:cardUseCompatPadding="true">
+    <androidx.appcompat.widget.LinearLayoutCompat
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:id="@+id/linearLayout"
+        android:background="@android:color/white"
+        android:orientation="horizontal"
+        android:padding="8dp"
+        android:weightSum="1">
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:layout_marginLeft="10dp"
+            android:layout_width="55dp"
+            android:layout_height="55dp"
+            android:id="@+id/modelImage"
+            android:layout_gravity="center_vertical"
+            android:elevation="5dp"
+            android:src="@drawable/eleven"/>
+        <androidx.appcompat.widget.LinearLayoutCompat
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_marginStart="16dp"
+            android:layout_marginLeft="16dp"
+            android:layout_weight="0.9"
+            android:layout_gravity="center_vertical">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/modelTitle"
+                android:fontFamily="@font/poppins_semibold"
+                android:text="TitleLine"
+                android:layout_gravity="center_vertical"
+                android:layout_marginLeft="10dp"
+                android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+                android:textColor="@color/black"
+                />
+        </androidx.appcompat.widget.LinearLayoutCompat>
+        <ImageView
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="0.1"
+            android:background="#0000ffff"
+            android:contentDescription="@string/app_name"
+            android:padding="8dp"
+
+
+            android:src="@drawable/arrow"/>
+
+
+
+
+    </androidx.appcompat.widget.LinearLayoutCompat>
+
+</androidx.cardview.widget.CardView>

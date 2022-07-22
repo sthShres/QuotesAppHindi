@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">Quotes App</string>
+
+    <string name="close">Close</string>
+    <string name="Open">Open</string>
+
+    <string name="facebook_page">Follow on Facebook</string>
+    <string name="instagram">Follow on instagram</string>
+    <string name="website_page">Visit our Website</string>
+    <string name="communication">Help Us Grow</string>
+    <string name="nav_rate">Rate or Feedback</string>
+    <string name="nav_share">Share</string>
+    <string name="nav_privacy_policy">Privacy Policy</string>
+    <string name="nav_terms_conditions">Terms and Conditions</string>
+</resources>
